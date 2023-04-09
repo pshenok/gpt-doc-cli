@@ -1,0 +1,21 @@
+{
+  "name": "gpt-doc-cli",
+  "version": "1.0.1",
+  "description": "CLI for generating documentation from code using GPT",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "gpt-doc-cli": "bin.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pshenok/gpt-doc-cli.git"
+},
+  "scripts": {
+    "start": "node ./bin.mjs"
+  },
+  "dependencies": {
+    "openai": "^3.2.1",
+    "yargs": "^17.7.1"
+  }
+}
